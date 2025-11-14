@@ -1,0 +1,21 @@
+**/build/
+**/install/
+**/log/
+
+# Ignore compiled binaries and object files
+*.o
+*.out
+*.exe
+*.a
+*.so
+*.dll
+
+# Ignore IDE/project files
+.vscode/
+.idea/
+
+# Ignore generated files
+*.log
+*.tmp
+*.cache
+*.db
