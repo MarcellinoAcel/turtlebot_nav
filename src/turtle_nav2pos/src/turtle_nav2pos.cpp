@@ -40,7 +40,7 @@ public:
 
 		RCLCPP_INFO(this->get_logger(), "Starting goal sequence...");
 
-		send_goal(0, 2, conv.toRad(0)); // FIRST GOAL
+		send_goal(24.29, -7.64, conv.toRad(0)); // FIRST GOAL
 	}
 
 	// ----------------------------------------------------------------------
@@ -137,7 +137,7 @@ private:
 				second_goal_pending = false;
 				current_goal_id = 2;
 
-				send_goal(3, 2, conv.toRad(0)); // SECOND GOAL
+				send_goal(-8.9, 9.2, conv.toRad(0)); // SECOND GOAL
 			}
 		}
 		else if (current_goal_id == 2)
