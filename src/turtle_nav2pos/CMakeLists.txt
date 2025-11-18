@@ -36,7 +36,7 @@ install(TARGETS turtle_nav2pos
   DESTINATION lib/${PROJECT_NAME})
 
 install(
-  DIRECTORY include/
+  DIRECTORY include maps config launch  
   DESTINATION include
 )
 
